@@ -11,16 +11,16 @@ const HomeImage = () => {
 export default HomeImage;
 
 const Container = styled.div `
-    width: 95vw;
-    height: 75vh;
-    margin-left: 1rem;
+    width: 100vw;
+    height: 80vh;
+    margin: 1rem;
+    justify-content: center;
     border: 1px solid black;
-    max-width: 95vw;
     display: flex;
     flex: 1 0;
 `
 
 const Image = styled.img `
-    width: 100%;
+    width: 90%;
     height: 100%;
 `
